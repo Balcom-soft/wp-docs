@@ -314,3 +314,9 @@ a:hover {
 .dt-title_border-bottom {
   border-color: #eee;
 }
+
+.tigon-img img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
