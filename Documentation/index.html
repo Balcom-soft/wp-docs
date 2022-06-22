@@ -37,8 +37,7 @@
 					<li><a href="#theme_options" class="dt-navbar__link">Theme Options</a></li>
 					<li><a href="#tes" class="dt-navbar__link">Testimonials</a></li>
 					<li><a href="#faq" class="dt-navbar__link">FAQ</a></li>
-					<li><a href="#header" class="dt-navbar__link">Header Builder</a></li>
-					<li><a href="#footer" class="dt-navbar__link">Footer Builder</a></li>
+					<li><a href="#tigon_block" class="dt-navbar__link">Tigon Block Templates</a></li>
 					<li><a href="#create_p" class="dt-navbar__link">Create Pages with WP Backery</a></li>
 					<li><a href="#edit_p" class="dt-navbar__link">Edit Pages with WPBakery Page Builder</a></li>
 
@@ -230,8 +229,10 @@
 			<p>
 				In "General Settings" you can set up:
 			<p class="list">
-				- Padding Options,<br/>
-				- Margin Options.
+				- Desktop Padding Options,<br/>
+				- Table Padding Options,<br/>
+				- Mobile Padding Options,
+
 			</p>
 			</p>
 
@@ -246,12 +247,17 @@
 				<br/> - Secondary Color.
 				<br/>
 			</p>
-			2) Text &amp; Links Settings:
+			2) Font, Buttons & Icons Settings:
 			<p class="list">
-				<br/> - Font Primary Color,<br/>
-				- Font Secondary Color<br/>
-				- Default Link Color<br/>
-				- Default Link Hover Color.<br/>
+				<br/>
+				- Font Primary Color,<br/>
+				- Font Secondary Color,<br/>
+				- Button Background Color,<br/>
+				- Button Hover Background Color,<br/>
+				- Button Text Color,<br/>
+				- Button Hover Text Color,<br/>
+				- Button Button Hover Text Color,<br/>
+				- Lordicon Secondary Color<br/>
 			</p>
 			3) Sections Setting of Text &amp; Link Styles:
 			<p class="list">
@@ -278,6 +284,8 @@
 				Regular Logo,<br/>
 				- Retina Logo<br/>
 				- Dark Logo<br/>
+				- Retina Dark Logo<br/>
+				- Width of Logo<br/>
 			</p>
 			<h3>Footer</h3>
 			<p>
@@ -311,11 +319,25 @@
 				- Contact Address,<br/>
 				- Company QR Code,<br/>
 			</p>
+			3) Blog Settings, here you can set Contact info:
+			<p class="list">
+				<br/> -
+
+				Blog Article Default Placeholder<br/>
+
+			</p>
 			<h3>Import/Export</h3>
 			<p class="list">
 				Here you can import and export theme options settings.
 				The settings can be imported/exported from/to the file or the Clipboard.
 
+			</p>
+			<p>(Video instructions below):
+				<video style="width: 100%;" controls>
+					<source src="assets/video/theme_options.mp4"
+							type="video/mp4">
+					Your browser does not support HTML5 video.
+				</video>
 			</p>
 		</article>
 
@@ -349,7 +371,7 @@
 			<p>
 				- To create <strong>FAQ Items</strong>, please do the following:<br/>
 				1. Go to <strong>FAQ > Add new</strong>.<br/>
-				2. Enter Title,  Description . Excerpt and click Publish button.
+				2. Enter Title, Description . Excerpt and click Publish button.
 			</p>
 
 			<p>
@@ -364,91 +386,111 @@
 				and configure settings, fields.
 				<br>(Video instructions below):
 				<video style="width: 100%;" controls>
-				<source src="assets/video/faqs.mp4"
-						type="video/mp4">
-				Your browser does not support HTML5 video.
-			</video>
+					<source src="assets/video/faqs.mp4"
+							type="video/mp4">
+					Your browser does not support HTML5 video.
+				</video>
 			</p>
-
 
 
 		</article>
 
 
-		<article id="header" class="dt-section">
-			<h2 class="dt-title">Header Builder</h2>
+		<article id="tigon_block" class="dt-section">
+			<h2 class="dt-title">Tigon Block Templates</h2>
 
 			<p>
-				- To customize <strong>Header Layout</strong> using WPBakery Page Builder builder, please do the following:<br/>
-				1. Go to <strong>Dashboard > Header & Footer -> Header #1 -> Edit with WPBakery Page Builder (or add new template)</strong>.<br/>
-				2. In WPBakery Page Builder builder panel drag and drop "Tigon Theme" elements.<br/>
-				3. Go to <strong>Dashboard > Tigon Options > Header</strong> and on "Header Template" choise created Header template.<br/>
+				Tigon block templates are used for Mega Menu Block but it can be used anywhere with shortcode which is generated during publishing
+				block template.
+				- To create <strong>Tigon Block Template</strong> using WPBakery Page Builder builder, please do the following:<br/>
+				1. Go to <strong>Dashboard > Tigon Block Templates -> Add New -> Edit with WPBakery Page Builder
+			</strong>.<br/>
+				2. In WPBakery Page Builder builder panel drag and drop desired WpBackery widget or "Tigon widgets" <br/>
+				3. Enter content and configure it.
+				4. Publish it. Publishing will generate block shortcode to use in theme or in content.
+				5. To use it in <b>Mega Menu </b> please go to <strong>Dashboard > Apperance -> Menus -> Select menu to edit -> enable Mega Menu Block and select desired Tigon Block template
+			</strong> and Save Menu.
+				<br/>
 				(Video instructions below):
 			</p>
 
 			<video style="width: 100%;" controls>
-				<source src="https://balcomsoft.com/tigon/tigon_wp_doc/videos/video4.mp4" type="video/mp4">
+				<source src="assets/video/tigon_block.mp4" type="video/mp4">
 				Your browser does not support HTML5 video.
 			</video>
 
 		</article>
 
-		<article id="footer" class="dt-section">
-			<h2 class="dt-title">Footer Builder</h2>
-
-			<p>
-				- To customize <strong>Footer Layout</strong> using WPBakery Page Builder builder, please do the following:<br/>
-				1. Go to <strong>Dashboard > Header & Footer -> Footer #1 -> Edit with WPBakery Page Builder (or add new template)</strong>.<br/>
-				2. In WPBakery Page Builder builder panel drag and drop "Tigon Theme" elements.<br/>
-				3. Go to <strong>Dashboard > Tigon Options > Footer</strong> and on "Footer Template" choise created Header template.<br/>
-				(Video instructions below):
-			</p>
-
-			<video style="width: 100%;" controls>
-				<source src="https://balcomsoft.com/tigon/tigon_wp_doc/videos/video5.mp4" type="video/mp4">
-				Your browser does not support HTML5 video.
-			</video>
-
-		</article>
 
 		<article id="create_p" class="dt-section">
 			<h2 class="dt-title">Create Pages with WPBakery Page Builder Builder</h2>
-
 			<p>
 				- To create page with WPBakery Page Builder builder, please do the following:<br/>
 				1. Go to <strong>Dashboard > Pages > Add New</strong>.<br/>
-				2. In the tab <strong>"Page Attributes" > "Template"</strong>, select <strong>"Layout builder (WPBakery Page Builder)"</strong> and <strong>Save Changes</strong>. Click to <strong>"Edit with WPBakery Page Builder"</strong>
+				2. in Tigon setting block , select Page setting style Dark style or Light style
+				3. To use <strong>"WPBakery Page Builder"</strong> Please click <b> WPBakery Page Builder</b>
 				button.<br/>
-				3. In WPBakery Page Builder builder panel drag and drop "Tigon Theme" elements & widgets and fill the fields. <br/>
+				4. In WPBakery Page Builder builder panel drag and drop "Tigon" elements & widgets and fill the fields. <br/>
 				(Video instructions below):
-			</p>
-
 			<video style="width: 100%;" controls>
-				<source src="https://balcomsoft.com/tigon/tigon_wp_doc/videos/video6.mp4" type="video/mp4">
+				<source src="assets/video/page-create.mp4" type="video/mp4">
 				Your browser does not support HTML5 video.
 			</video>
-
+			</p>
 		</article>
 
 		<article id="edit_p" class="dt-section">
 			<h2 class="dt-title">Edit Pages with WPBakery Page Builder Builder</h2>
-
 			<p>
 				- To edit <strong>Page</strong>, please do the following:<br/>
 				1. Go to <strong>Dashboard > Pages > Edit</strong>.<br/>
-				2. In the tab <strong>"Page Attributes" > "Template"</strong>, select <strong>"Layout builder (WPBakery Page Builder)"</strong>. Click to <strong>"Edit with WPBakery Page Builder"</strong> button.<br/>
-				3. In WPBakery Page Builder builder panel drag and drop "Tigon Theme" elements & widgets and fill the fields. <br/>
+				2. in Tigon setting block , select Page setting style Dark style or Light style
+				3. To use <strong>"WPBakery Page Builder"</strong> Please click <b> WPBakery Page Builder</b>
+				button.<br/>
+				4. In WPBakery Page Builder builder panel drag and drop "Tigon" elements & widgets and fill the fields. <br/>
 				(Video instructions below):
-			</p>
-
 			<video style="width: 100%;" controls>
-				<source src="https://balcomsoft.com/tigon/tigon_wp_doc/videos/video7.mp4" type="video/mp4">
+				<source src="assets/video/page-edit.mp4" type="video/mp4">
 				Your browser does not support HTML5 video.
 			</video>
-
+			</p>
 		</article>
 
+		<article id="widget" class="dt-section">
+			<h2 class="dt-title">Tigon WPBackery Page Builder Elements </h2>
+			<p>
+			<h3>Tigon Theme has following WPBackery Page Builder Elements:</h3>
+			<br/>- Author Block - to show author image and his description,  with contact form with options of video playing in background
+			<div class="tigon-img">
+				<img src="assets/img/author-block.png"/>
+			</div>
 
+			<br/>- Banner - to show banner with clickable url it has for options for styles
+			<br/>- Blog Section - show blogs with configurations
+			<br/>- Brands Slider - brands slider
+			<br/>- Card Elements - to show cards with images or graphics, Card type it has animation options
+			<br/>- Coming Soon - coming soon element
+			<br/>- Counter - Counter Elements with styling options
+			<br/>- FAQs - FAQ element that pulls the FAQ items
+			<br/>- Full Card - Display Box for with full width awith option to show video in background, and show the image as Banner placeholder
+			<br/>- Heading wit Button - Heading with button on right side.
+			<br/>- Icon Services Card - Icon with text and link to the service page . Icon uses Lordicon icons
+			<br/>- Icon with Content - Icon with text and link.  Icon uses Lordicon icons
+			<br/>- Investment - It shows investment content
+			<br/>- Latest Posts - to show latest Posts
+			<br/>- Posts - to show posts
+			<br/>- Service - to show services
+			<br/>- Team - to show teams members
+			<br/>- Testimonials - to show testimonials items
+			<br/>- Video Player - video player element display
+			<br/>
+<br/>
+				Please see Screenshot:
+			<div class="tigon-img">
+				<img src="assets/img/tigon-elements.png"/>
+			</div>
+			</p>
+		</article>
 		<article id="contacts" class="dt-section">
 			<h2 class="dt-title">Contact Form</h2>
 
@@ -481,10 +523,6 @@
 				2. In WPBakery Page Builder widget "Author Block" in Form field, select your created CF7 form.
 			</p>
 
-			<video style="width: 100%;" controls>
-				<source src="https://balcomsoft.com/tigon/tigon_wp_doc/videos/video10.mp4" type="video/mp4">
-				Your browser does not support HTML5 video.
-			</video>
 
 		</article>
 
@@ -522,10 +560,6 @@
 				7. <strong>Save Changes</strong>.<br/>
 			</p>
 
-			<video style="width: 100%;" controls>
-				<source src="https://balcomsoft.com/tigon/tigon_wp_doc/videos/video10.mp4" type="video/mp4">
-				Your browser does not support HTML5 video.
-			</video>
 
 		</article>
 
